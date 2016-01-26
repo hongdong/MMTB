@@ -16,7 +16,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.navigationBar.tintColor = [UIColor whiteColor];
+    self.navigationBar.translucent = NO;
+    
+    // 清除边框
+    for (UIView *view in self.navigationBar.subviews){
+        if ([view isKindOfClass:NSClassFromString(@"_UINavigationBarBackground")]){
+            for (UIView *subView in view.subviews){
+                if ([subView isKindOfClass:[UIImageView class]]){
+                    [subView removeFromSuperview];
+                    
+                    break;
+                }
+            }
+            
+            break;
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning {
