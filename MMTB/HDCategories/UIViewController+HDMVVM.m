@@ -25,8 +25,8 @@
 - (void)setHd_vm:(HDBaseVM *)hd_vm
 {
     objc_setAssociatedObject(self, @selector(hd_vm), hd_vm, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-    if ([self respondsToSelector:@selector(hd_bindWithViewModel)]) {
-        [self performSelectorOnMainThread:@selector(hd_bindWithViewModel) withObject:nil waitUntilDone:NO];
+    if ([self respondsToSelector:@selector(hd_bindViewModel)]) {
+        [self performSelectorOnMainThread:@selector(hd_bindViewModel) withObject:nil waitUntilDone:NO];
     }
 }
 

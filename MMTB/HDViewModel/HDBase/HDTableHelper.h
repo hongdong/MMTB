@@ -11,8 +11,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef NSString * __nonnull (^SUITableHelperCellIdentifierBlock)(NSIndexPath *cIndexPath, id model);
+typedef NSString * __nonnull (^HDTableHelperCellIdentifierBlock)(NSIndexPath *cIndexPath, id model);
 @interface HDTableHelper : NSObject<UITableViewDataSource,UITableViewDelegate>
+
+@property (nonatomic,strong) NSIndexPath *hd_selectedIndexPath;
+
+
+- (void)cellIdentifier:(HDTableHelperCellIdentifierBlock)cb;
 
 @end
 NS_ASSUME_NONNULL_END

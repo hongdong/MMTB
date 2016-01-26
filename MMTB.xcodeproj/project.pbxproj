@@ -30,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07428B161C57C42400E28155 /* HDViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDViewProtocol.h; sourceTree = "<group>"; };
 		115AA58BFF6F1FF2E1BE297A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A0A4682EC964CAE6CCE45CBA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AEC055FE1C574413009DBCBF /* UIViewController+HDMVVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HDMVVM.h"; sourceTree = "<group>"; };
@@ -221,6 +222,7 @@
 				AEF4E3F31C571FD60086F35B /* HDBaseVC.m */,
 				AEF4E3FA1C5724AC0086F35B /* HDBaseNVC.h */,
 				AEF4E3FB1C5724AC0086F35B /* HDBaseNVC.m */,
+				07428B161C57C42400E28155 /* HDViewProtocol.h */,
 			);
 			path = HDBase;
 			sourceTree = "<group>";

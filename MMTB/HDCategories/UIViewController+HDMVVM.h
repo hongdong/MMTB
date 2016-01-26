@@ -7,17 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIViewController+HDMVVM.h"
+#import "HDViewProtocol.h"
 @class HDBaseVM;
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol HDVCProtocol <NSObject>
-@optional
 
-- (void)hd_bindWithViewModel;
-
-@end
-
-@interface UIViewController (HDMVVM)<HDVCProtocol>
+@interface UIViewController (HDMVVM)<HDViewProtocol>
 
 @property (nonatomic,strong) __kindof HDBaseVM *hd_vm;
 
