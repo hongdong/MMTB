@@ -10,6 +10,8 @@
 @class HDBaseVM;
 @interface HDBaseVC : UIViewController
 
+- (instancetype)initWithAutoNib;
+
 - (instancetype)initWithViewModel:(HDBaseVM *)viewModel;
 
 @end

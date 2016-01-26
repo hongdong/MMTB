@@ -7,7 +7,10 @@
 //
 
 #import "HDBaseVM.h"
-
+@class HDHomeVM,HDMineVM;
 @interface HDTabBarVM : HDBaseVM
+
+@property (nonatomic, strong) HDHomeVM *homeVM;
+@property (nonatomic, strong) HDMineVM *mineVM;
 
 @end

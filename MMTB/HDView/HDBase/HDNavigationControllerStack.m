@@ -8,9 +8,11 @@
 
 #import "HDNavigationControllerStack.h"
 #import "ReactiveCocoa.h"
-#import "HDVM2VRouter.h"
 #import "HDBaseNVC.h"
 #import "AppDelegate.h"
+#import "HDViewModelServicesProtocol.h"
+#import "HDVVMRouter.h"
+#import "HDTabBarVC.h"
 
 @interface HDNavigationControllerStack ()<UINavigationControllerDelegate>
 
@@ -38,7 +40,6 @@
     self = [super init];
     if (self) {
         _services = services;
-        _navigationControllers = [[NSMutableArray alloc] init];
     }
     return self;
 }
@@ -64,7 +65,7 @@
       rac_signalForSelector:@selector(pushViewModel:animated:)]
      subscribeNext:^(RACTuple *tuple) {
          @strongify(self)
-         UIViewController *viewController = (UIViewController *)[[HDVM2VRouter sharedHDVM2VRouter] viewControllerForViewModel:tuple.first];
+         UIViewController *viewController = [[HDVVMRouter sharedHDVVMRouter] hd_VCForVM:tuple.first];
          viewController.hidesBottomBarWhenPushed = YES;
          [self.navigationControllers.lastObject pushViewController:viewController animated:[tuple.second boolValue]];
      }];
@@ -87,7 +88,7 @@
       rac_signalForSelector:@selector(presentViewModel:animated:completion:)]
      subscribeNext:^(RACTuple *tuple) {
         	@strongify(self)
-         UIViewController *viewController = (UIViewController *)[[HDVM2VRouter sharedHDVM2VRouter] viewControllerForViewModel:tuple.first];
+         UIViewController *viewController = (UIViewController *)[[HDVVMRouter sharedHDVVMRouter] hd_VCForVM:tuple.first];
          
          UINavigationController *presentingViewController = self.navigationControllers.lastObject;
          if (![viewController isKindOfClass:UINavigationController.class]) {
@@ -107,14 +108,14 @@
      }];
     
     [[(NSObject *)self.services
-      rac_signalForSelector:@selector(resetRootViewModel:)]
+      rac_signalForSelector:@selector(resetWindowRootViewModel:)]
      subscribeNext:^(RACTuple *tuple) {
          @strongify(self)
          [self.navigationControllers removeAllObjects];
          
-         UIViewController *viewController = (UIViewController *)[[HDVM2VRouter sharedHDVM2VRouter] viewControllerForViewModel:tuple.first];
+         UIViewController *viewController = (UIViewController *)[[HDVVMRouter sharedHDVVMRouter] hd_VCForVM:tuple.first];
          
-         if (![viewController isKindOfClass:[UINavigationController class]]/* && ![viewController isKindOfClass:[MRCTabBarController class]]*/) {
+         if (![viewController isKindOfClass:[UINavigationController class]]&& ![viewController isKindOfClass:[HDTabBarVC class]]) {
              viewController = [[HDBaseNVC alloc] initWithRootViewController:viewController];
              ((UINavigationController *)viewController).delegate = self;
              [self pushNavigationController:(UINavigationController *)viewController];
@@ -125,4 +126,13 @@
      }];
 }
 
+/**
+ *  GET&&SETER
+ */
+-(NSMutableArray *)navigationControllers{
+    if (!_navigationControllers) {
+        _navigationControllers = [NSMutableArray array];
+    }
+    return _navigationControllers;
+}
 @end

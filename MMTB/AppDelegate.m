@@ -24,6 +24,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //懒初始化HDNavigationControllerStack
+    [self navigationControllerStack];
     [self.services resetWindowRootViewModel:[self createInitialViewModel]];
     [self.window makeKeyAndVisible];
     return YES;

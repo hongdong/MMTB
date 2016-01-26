@@ -1,30 +1,22 @@
 //
-//  HDBaseVC.m
+//  HDMineVC.m
 //  MMTB
 //
 //  Created by 洪东 on 16/1/26.
 //  Copyright © 2016年 abnerh. All rights reserved.
 //
 
-#import "HDBaseVC.h"
+#import "HDMineVC.h"
 
-@interface HDBaseVC ()
+@interface HDMineVC ()
 
 @end
 
-@implementation HDBaseVC
-
-- (instancetype)initWithAutoNib{
-    self = [super initWithNibName:NSStringFromClass([self class]) bundle:nil];
-    if (self) {
-        
-    }
-    return self;
-}
+@implementation HDMineVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {

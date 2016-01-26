@@ -7,7 +7,14 @@
 //
 
 #import "HDTabBarVM.h"
+#import "HDHomeVM.h"
+#import "HDMineVM.h"
 
 @implementation HDTabBarVM
 
+- (void)initialize {
+    [super initialize];
+    self.homeVM    = [[HDHomeVM alloc] initWithServices:self.services params:nil];
+    self.mineVM   = [[HDMineVM alloc] initWithServices:self.services params:nil];
+}
 @end

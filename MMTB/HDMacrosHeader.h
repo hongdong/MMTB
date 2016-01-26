@@ -13,6 +13,17 @@
 
 #endif
 
+#define uLogError(__format, ...)    NSLog((uXCODE_COLORS_ESCAPE @"fg255,41,105;" @"\n## " __format uXCODE_COLORS_RESET), ##__VA_ARGS__);
+
+#define uAssert(__condition, __desc, ...) \
+do { \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Wformat-extra-args\"") \
+if (!(__condition)) \
+uLogError(__desc, ##__VA_ARGS__); \
+_Pragma("clang diagnostic pop") \
+} while (0);
+
 ///------------
 /// AppDelegate
 ///------------

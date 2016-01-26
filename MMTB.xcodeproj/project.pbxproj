@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		43808ADC49B310BB91D204A9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E054F27BEB6FF06CBFD14328 /* libPods.a */; };
+		AEC056001C574413009DBCBF /* UIViewController+HDMVVM.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC055FF1C574413009DBCBF /* UIViewController+HDMVVM.m */; };
+		AEC056031C574A1C009DBCBF /* HDVVMRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC056021C574A1C009DBCBF /* HDVVMRouter.m */; };
+		AEC0560A1C575568009DBCBF /* HDMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC056081C575568009DBCBF /* HDMineVC.m */; };
+		AEC0560B1C575568009DBCBF /* HDMineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEC056091C575568009DBCBF /* HDMineVC.xib */; };
+		AEC0560F1C575580009DBCBF /* HDHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC0560D1C575580009DBCBF /* HDHomeVC.m */; };
+		AEC056101C575580009DBCBF /* HDHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEC0560E1C575580009DBCBF /* HDHomeVC.xib */; };
+		AEC056151C575E59009DBCBF /* HDHomeVM.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC056141C575E59009DBCBF /* HDHomeVM.m */; };
+		AEC056181C575E69009DBCBF /* HDMineVM.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC056171C575E69009DBCBF /* HDMineVM.m */; };
 		AEF4E3E31C5717F30086F35B /* HDTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3E11C5717F30086F35B /* HDTabBarVC.m */; };
 		AEF4E3E91C5719650086F35B /* HDBaseVM.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3E81C5719650086F35B /* HDBaseVM.m */; };
 		AEF4E3ED1C571BF60086F35B /* HDVMServices.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3EC1C571BF60086F35B /* HDVMServices.m */; };
 		AEF4E3F11C571D980086F35B /* HDNavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3F01C571D980086F35B /* HDNavigationControllerStack.m */; };
 		AEF4E3F41C571FD60086F35B /* HDBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3F31C571FD60086F35B /* HDBaseVC.m */; };
-		AEF4E3F91C5722CD0086F35B /* HDVM2VRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3F81C5722CD0086F35B /* HDVM2VRouter.m */; };
 		AEF4E3FC1C5724AC0086F35B /* HDBaseNVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3FB1C5724AC0086F35B /* HDBaseNVC.m */; };
 		AEF4E3FF1C5732E30086F35B /* HDTabBarVM.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3FE1C5732E30086F35B /* HDTabBarVM.m */; };
 		AEFBF9D81C5220BD003D55B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFBF9D71C5220BD003D55B2 /* main.m */; };
@@ -24,6 +31,20 @@
 /* Begin PBXFileReference section */
 		115AA58BFF6F1FF2E1BE297A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A0A4682EC964CAE6CCE45CBA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AEC055FE1C574413009DBCBF /* UIViewController+HDMVVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HDMVVM.h"; sourceTree = "<group>"; };
+		AEC055FF1C574413009DBCBF /* UIViewController+HDMVVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HDMVVM.m"; sourceTree = "<group>"; };
+		AEC056011C574A1C009DBCBF /* HDVVMRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDVVMRouter.h; sourceTree = "<group>"; };
+		AEC056021C574A1C009DBCBF /* HDVVMRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDVVMRouter.m; sourceTree = "<group>"; };
+		AEC056071C575568009DBCBF /* HDMineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMineVC.h; sourceTree = "<group>"; };
+		AEC056081C575568009DBCBF /* HDMineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMineVC.m; sourceTree = "<group>"; };
+		AEC056091C575568009DBCBF /* HDMineVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDMineVC.xib; sourceTree = "<group>"; };
+		AEC0560C1C575580009DBCBF /* HDHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDHomeVC.h; sourceTree = "<group>"; };
+		AEC0560D1C575580009DBCBF /* HDHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDHomeVC.m; sourceTree = "<group>"; };
+		AEC0560E1C575580009DBCBF /* HDHomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDHomeVC.xib; sourceTree = "<group>"; };
+		AEC056131C575E59009DBCBF /* HDHomeVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDHomeVM.h; sourceTree = "<group>"; };
+		AEC056141C575E59009DBCBF /* HDHomeVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDHomeVM.m; sourceTree = "<group>"; };
+		AEC056161C575E69009DBCBF /* HDMineVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMineVM.h; sourceTree = "<group>"; };
+		AEC056171C575E69009DBCBF /* HDMineVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMineVM.m; sourceTree = "<group>"; };
 		AEF4E3E01C5717F30086F35B /* HDTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTabBarVC.h; sourceTree = "<group>"; };
 		AEF4E3E11C5717F30086F35B /* HDTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTabBarVC.m; sourceTree = "<group>"; };
 		AEF4E3E51C5718F50086F35B /* HDNavigationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDNavigationProtocol.h; sourceTree = "<group>"; };
@@ -37,8 +58,6 @@
 		AEF4E3F21C571FD60086F35B /* HDBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseVC.h; sourceTree = "<group>"; };
 		AEF4E3F31C571FD60086F35B /* HDBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDBaseVC.m; sourceTree = "<group>"; };
 		AEF4E3F51C5721CD0086F35B /* HDMacrosHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMacrosHeader.h; sourceTree = "<group>"; };
-		AEF4E3F71C5722CD0086F35B /* HDVM2VRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDVM2VRouter.h; sourceTree = "<group>"; };
-		AEF4E3F81C5722CD0086F35B /* HDVM2VRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDVM2VRouter.m; sourceTree = "<group>"; };
 		AEF4E3FA1C5724AC0086F35B /* HDBaseNVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseNVC.h; sourceTree = "<group>"; };
 		AEF4E3FB1C5724AC0086F35B /* HDBaseNVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDBaseNVC.m; sourceTree = "<group>"; };
 		AEF4E3FD1C5732E30086F35B /* HDTabBarVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTabBarVM.h; sourceTree = "<group>"; };
@@ -81,6 +100,53 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AEC055FB1C5742A6009DBCBF /* HDHome */ = {
+			isa = PBXGroup;
+			children = (
+				AEC0560C1C575580009DBCBF /* HDHomeVC.h */,
+				AEC0560D1C575580009DBCBF /* HDHomeVC.m */,
+				AEC0560E1C575580009DBCBF /* HDHomeVC.xib */,
+			);
+			path = HDHome;
+			sourceTree = "<group>";
+		};
+		AEC055FC1C5742A6009DBCBF /* HDMine */ = {
+			isa = PBXGroup;
+			children = (
+				AEC056071C575568009DBCBF /* HDMineVC.h */,
+				AEC056081C575568009DBCBF /* HDMineVC.m */,
+				AEC056091C575568009DBCBF /* HDMineVC.xib */,
+			);
+			path = HDMine;
+			sourceTree = "<group>";
+		};
+		AEC055FD1C5743E4009DBCBF /* HDCategories */ = {
+			isa = PBXGroup;
+			children = (
+				AEC055FE1C574413009DBCBF /* UIViewController+HDMVVM.h */,
+				AEC055FF1C574413009DBCBF /* UIViewController+HDMVVM.m */,
+			);
+			path = HDCategories;
+			sourceTree = "<group>";
+		};
+		AEC056111C575E3A009DBCBF /* HDHome */ = {
+			isa = PBXGroup;
+			children = (
+				AEC056131C575E59009DBCBF /* HDHomeVM.h */,
+				AEC056141C575E59009DBCBF /* HDHomeVM.m */,
+			);
+			path = HDHome;
+			sourceTree = "<group>";
+		};
+		AEC056121C575E3A009DBCBF /* HDMine */ = {
+			isa = PBXGroup;
+			children = (
+				AEC056161C575E69009DBCBF /* HDMineVM.h */,
+				AEC056171C575E69009DBCBF /* HDMineVM.m */,
+			);
+			path = HDMine;
+			sourceTree = "<group>";
+		};
 		AEF4E3DD1C5717F30086F35B /* HDModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +157,8 @@
 		AEF4E3DE1C5717F30086F35B /* HDView */ = {
 			isa = PBXGroup;
 			children = (
+				AEC055FB1C5742A6009DBCBF /* HDHome */,
+				AEC055FC1C5742A6009DBCBF /* HDMine */,
 				AEF4E3EE1C571D7B0086F35B /* HDBase */,
 				AEF4E3DF1C5717F30086F35B /* HDTabBarVC */,
 			);
@@ -109,6 +177,8 @@
 		AEF4E3E21C5717F30086F35B /* HDViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				AEC056111C575E3A009DBCBF /* HDHome */,
+				AEC056121C575E3A009DBCBF /* HDMine */,
 				AEF4E3E61C5719480086F35B /* HDBase */,
 				AEF4E3E41C5718B50086F35B /* HDVMServices */,
 				AEF4E3FD1C5732E30086F35B /* HDTabBarVM.h */,
@@ -153,8 +223,8 @@
 		AEF4E3F61C5722970086F35B /* HDRouter */ = {
 			isa = PBXGroup;
 			children = (
-				AEF4E3F71C5722CD0086F35B /* HDVM2VRouter.h */,
-				AEF4E3F81C5722CD0086F35B /* HDVM2VRouter.m */,
+				AEC056011C574A1C009DBCBF /* HDVVMRouter.h */,
+				AEC056021C574A1C009DBCBF /* HDVVMRouter.m */,
 			);
 			path = HDRouter;
 			sourceTree = "<group>";
@@ -180,6 +250,7 @@
 		AEFBF9D51C5220BD003D55B2 /* MMTB */ = {
 			isa = PBXGroup;
 			children = (
+				AEC055FD1C5743E4009DBCBF /* HDCategories */,
 				AEF4E3F61C5722970086F35B /* HDRouter */,
 				AEF4E3DD1C5717F30086F35B /* HDModel */,
 				AEF4E3DE1C5717F30086F35B /* HDView */,
@@ -262,7 +333,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEC056101C575580009DBCBF /* HDHomeVC.xib in Resources */,
 				AEFBF9E31C5220BD003D55B2 /* Assets.xcassets in Resources */,
+				AEC0560B1C575568009DBCBF /* HDMineVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,15 +394,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEC0560F1C575580009DBCBF /* HDHomeVC.m in Sources */,
 				AEF4E3FF1C5732E30086F35B /* HDTabBarVM.m in Sources */,
 				AEF4E3E31C5717F30086F35B /* HDTabBarVC.m in Sources */,
-				AEF4E3F91C5722CD0086F35B /* HDVM2VRouter.m in Sources */,
+				AEC056151C575E59009DBCBF /* HDHomeVM.m in Sources */,
+				AEC056001C574413009DBCBF /* UIViewController+HDMVVM.m in Sources */,
 				AEFBF9DB1C5220BD003D55B2 /* AppDelegate.m in Sources */,
 				AEFBF9D81C5220BD003D55B2 /* main.m in Sources */,
+				AEC056181C575E69009DBCBF /* HDMineVM.m in Sources */,
 				AEF4E3FC1C5724AC0086F35B /* HDBaseNVC.m in Sources */,
 				AEF4E3E91C5719650086F35B /* HDBaseVM.m in Sources */,
 				AEF4E3F11C571D980086F35B /* HDNavigationControllerStack.m in Sources */,
 				AEF4E3ED1C571BF60086F35B /* HDVMServices.m in Sources */,
+				AEC0560A1C575568009DBCBF /* HDMineVC.m in Sources */,
+				AEC056031C574A1C009DBCBF /* HDVVMRouter.m in Sources */,
 				AEF4E3F41C571FD60086F35B /* HDBaseVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

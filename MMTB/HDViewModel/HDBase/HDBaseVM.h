@@ -11,6 +11,11 @@
 
 @interface HDBaseVM : NSObject
 
+@property (nonatomic, strong) id<HDViewModelServicesProtocol> services;
+
 - (instancetype)initWithServices:(id<HDViewModelServicesProtocol>)services params:(NSDictionary *)params;
+
+- (void)initialize;
+
 
 @end

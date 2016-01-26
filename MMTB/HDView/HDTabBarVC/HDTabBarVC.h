@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class HDBaseVM;
 @interface HDTabBarVC : UITabBarController
-
+-(instancetype)initWithViewModel:(HDBaseVM *)vm;
 @end
