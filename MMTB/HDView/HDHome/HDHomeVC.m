@@ -9,6 +9,7 @@
 #import "HDHomeVC.h"
 
 @interface HDHomeVC ()
+@property (weak, nonatomic) IBOutlet UITableView *mainTable;
 
 @end
 

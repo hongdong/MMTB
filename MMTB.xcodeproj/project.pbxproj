@@ -16,6 +16,7 @@
 		AEC056101C575580009DBCBF /* HDHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEC0560E1C575580009DBCBF /* HDHomeVC.xib */; };
 		AEC056151C575E59009DBCBF /* HDHomeVM.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC056141C575E59009DBCBF /* HDHomeVM.m */; };
 		AEC056181C575E69009DBCBF /* HDMineVM.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC056171C575E69009DBCBF /* HDMineVM.m */; };
+		AEC0561B1C577958009DBCBF /* HDTableHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC0561A1C577958009DBCBF /* HDTableHelper.m */; };
 		AEF4E3E31C5717F30086F35B /* HDTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3E11C5717F30086F35B /* HDTabBarVC.m */; };
 		AEF4E3E91C5719650086F35B /* HDBaseVM.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3E81C5719650086F35B /* HDBaseVM.m */; };
 		AEF4E3ED1C571BF60086F35B /* HDVMServices.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3EC1C571BF60086F35B /* HDVMServices.m */; };
@@ -45,6 +46,8 @@
 		AEC056141C575E59009DBCBF /* HDHomeVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDHomeVM.m; sourceTree = "<group>"; };
 		AEC056161C575E69009DBCBF /* HDMineVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMineVM.h; sourceTree = "<group>"; };
 		AEC056171C575E69009DBCBF /* HDMineVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMineVM.m; sourceTree = "<group>"; };
+		AEC056191C577958009DBCBF /* HDTableHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTableHelper.h; sourceTree = "<group>"; };
+		AEC0561A1C577958009DBCBF /* HDTableHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTableHelper.m; sourceTree = "<group>"; };
 		AEF4E3E01C5717F30086F35B /* HDTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTabBarVC.h; sourceTree = "<group>"; };
 		AEF4E3E11C5717F30086F35B /* HDTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTabBarVC.m; sourceTree = "<group>"; };
 		AEF4E3E51C5718F50086F35B /* HDNavigationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDNavigationProtocol.h; sourceTree = "<group>"; };
@@ -203,6 +206,8 @@
 			children = (
 				AEF4E3E71C5719650086F35B /* HDBaseVM.h */,
 				AEF4E3E81C5719650086F35B /* HDBaseVM.m */,
+				AEC056191C577958009DBCBF /* HDTableHelper.h */,
+				AEC0561A1C577958009DBCBF /* HDTableHelper.m */,
 			);
 			path = HDBase;
 			sourceTree = "<group>";
@@ -408,6 +413,7 @@
 				AEF4E3ED1C571BF60086F35B /* HDVMServices.m in Sources */,
 				AEC0560A1C575568009DBCBF /* HDMineVC.m in Sources */,
 				AEC056031C574A1C009DBCBF /* HDVVMRouter.m in Sources */,
+				AEC0561B1C577958009DBCBF /* HDTableHelper.m in Sources */,
 				AEF4E3F41C571FD60086F35B /* HDBaseVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
