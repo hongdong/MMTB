@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07F2EF241C584AD500D555DE /* UITableViewCell+HDMVVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F2EF231C584AD500D555DE /* UITableViewCell+HDMVVM.m */; };
+		07F2EF271C584AED00D555DE /* UIView+HDMVVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F2EF261C584AED00D555DE /* UIView+HDMVVM.m */; };
 		43808ADC49B310BB91D204A9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E054F27BEB6FF06CBFD14328 /* libPods.a */; };
 		AEC056001C574413009DBCBF /* UIViewController+HDMVVM.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC055FF1C574413009DBCBF /* UIViewController+HDMVVM.m */; };
 		AEC056031C574A1C009DBCBF /* HDVVMRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC056021C574A1C009DBCBF /* HDVVMRouter.m */; };
@@ -31,6 +33,10 @@
 
 /* Begin PBXFileReference section */
 		07428B161C57C42400E28155 /* HDViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDViewProtocol.h; sourceTree = "<group>"; };
+		07F2EF221C584AD500D555DE /* UITableViewCell+HDMVVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HDMVVM.h"; sourceTree = "<group>"; };
+		07F2EF231C584AD500D555DE /* UITableViewCell+HDMVVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HDMVVM.m"; sourceTree = "<group>"; };
+		07F2EF251C584AED00D555DE /* UIView+HDMVVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HDMVVM.h"; sourceTree = "<group>"; };
+		07F2EF261C584AED00D555DE /* UIView+HDMVVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HDMVVM.m"; sourceTree = "<group>"; };
 		115AA58BFF6F1FF2E1BE297A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A0A4682EC964CAE6CCE45CBA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AEC055FE1C574413009DBCBF /* UIViewController+HDMVVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HDMVVM.h"; sourceTree = "<group>"; };
@@ -129,6 +135,10 @@
 			children = (
 				AEC055FE1C574413009DBCBF /* UIViewController+HDMVVM.h */,
 				AEC055FF1C574413009DBCBF /* UIViewController+HDMVVM.m */,
+				07F2EF221C584AD500D555DE /* UITableViewCell+HDMVVM.h */,
+				07F2EF231C584AD500D555DE /* UITableViewCell+HDMVVM.m */,
+				07F2EF251C584AED00D555DE /* UIView+HDMVVM.h */,
+				07F2EF261C584AED00D555DE /* UIView+HDMVVM.m */,
 			);
 			path = HDCategories;
 			sourceTree = "<group>";
@@ -403,7 +413,9 @@
 			files = (
 				AEC0560F1C575580009DBCBF /* HDHomeVC.m in Sources */,
 				AEF4E3FF1C5732E30086F35B /* HDTabBarVM.m in Sources */,
+				07F2EF241C584AD500D555DE /* UITableViewCell+HDMVVM.m in Sources */,
 				AEF4E3E31C5717F30086F35B /* HDTabBarVC.m in Sources */,
+				07F2EF271C584AED00D555DE /* UIView+HDMVVM.m in Sources */,
 				AEC056151C575E59009DBCBF /* HDHomeVM.m in Sources */,
 				AEC056001C574413009DBCBF /* UIViewController+HDMVVM.m in Sources */,
 				AEFBF9DB1C5220BD003D55B2 /* AppDelegate.m in Sources */,
