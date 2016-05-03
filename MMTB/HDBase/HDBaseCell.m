@@ -17,7 +17,7 @@
     [self.contentView resetAllView];
 }
 
--(void)bindViewModel:(HDBaseViewModel *)viewModel indexPath:(NSIndexPath *)indexPath{
+-(void)HDBindViewModel:(HDBaseViewModel *)viewModel indexPath:(NSIndexPath *)indexPath{
     if (!viewModel) {
         return;
     }

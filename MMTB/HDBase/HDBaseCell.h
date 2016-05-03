@@ -12,6 +12,6 @@
 
 @property (nonatomic, strong) NSIndexPath *indexPath;
 @property (nonatomic, strong) __kindof HDBaseViewModel *viewModel;
--(void)bindViewModel:(__kindof HDBaseViewModel *)viewModel indexPath:(NSIndexPath *)indexPath;
+-(void)HDBindViewModel:(__kindof HDBaseViewModel *)viewModel indexPath:(NSIndexPath *)indexPath;
 -(void)HDFillData;
 @end

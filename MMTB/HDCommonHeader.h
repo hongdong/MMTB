@@ -78,7 +78,17 @@ typedef id   (^IDBlock_id)  (id);
 #define HDArrIsEmptyOrNil(_arr_) (!_arr_||[_arr_ hd_arrIsEmpty])
 #define HDStrIsEmptyOrNil(_str_) (!_str_|| ([_str_ isEqual:[NSNull null]]) ||[_str_ isEmpty])
 
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...) {}
+#endif
+
 #define HDString(s, ...) ([NSString stringWithFormat:(s), ##__VA_ARGS__])
+
+#define DebugLog(s, ...) NSLog(@"%s(%d): %@", __FUNCTION__, __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__])
+#define HDLogError(error) NSLog(@"Error: %@", error)
+
 
 #define HDKeyWindow [UIApplication sharedApplication].keyWindow
 

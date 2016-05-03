@@ -6,6 +6,11 @@
 //  Copyright © 2016 abnerh. All rights reserved.
 //
 
+#define HDGetCell(c) [c HDGetCellForTable:tableView indexPath:indexPath viewModel:self.viewModel]
+#define HDGetCellHeight(c) [c HDGetCellHeightForTable:tableView indexPath:indexPath viewModel:self.viewModel]
+#define HDAutoRegisterGetCell(c) HDRegisterTableCell(c),HDGetCell(c);
+#define HDAutoRegisterGetCellHeight(c) HDRegisterTableCell(c),HDGetCellHeight(c);
+
 #import <UIKit/UIKit.h>
 #import "HDBaseViewModel.h"
 #import "UITableView+HD.h"

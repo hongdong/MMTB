@@ -18,6 +18,9 @@
 		AEFBF9DB1C5220BD003D55B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFBF9DA1C5220BD003D55B2 /* AppDelegate.m */; };
 		AEFBF9E31C5220BD003D55B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFBF9E21C5220BD003D55B2 /* Assets.xcassets */; };
 		AEFD8C881CD844A600AEFB4A /* HDNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFD8C871CD844A600AEFB4A /* HDNavigation.m */; };
+		AEFD8C8D1CD881AD00AEFB4A /* UITableView+HD.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFD8C8A1CD881AD00AEFB4A /* UITableView+HD.m */; };
+		AEFD8C8E1CD881AD00AEFB4A /* UITableViewCell+HD.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFD8C8C1CD881AD00AEFB4A /* UITableViewCell+HD.m */; };
+		AEFD8C921CD8893400AEFB4A /* HDNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFD8C911CD8893400AEFB4A /* HDNetWork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,12 @@
 		AEFBF9E71C5220BD003D55B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEFD8C861CD844A600AEFB4A /* HDNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDNavigation.h; sourceTree = "<group>"; };
 		AEFD8C871CD844A600AEFB4A /* HDNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDNavigation.m; sourceTree = "<group>"; };
+		AEFD8C891CD881AD00AEFB4A /* UITableView+HD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HD.h"; sourceTree = "<group>"; };
+		AEFD8C8A1CD881AD00AEFB4A /* UITableView+HD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HD.m"; sourceTree = "<group>"; };
+		AEFD8C8B1CD881AD00AEFB4A /* UITableViewCell+HD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HD.h"; sourceTree = "<group>"; };
+		AEFD8C8C1CD881AD00AEFB4A /* UITableViewCell+HD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HD.m"; sourceTree = "<group>"; };
+		AEFD8C901CD8893400AEFB4A /* HDNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDNetWork.h; sourceTree = "<group>"; };
+		AEFD8C911CD8893400AEFB4A /* HDNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDNetWork.m; sourceTree = "<group>"; };
 		E054F27BEB6FF06CBFD14328 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -97,6 +106,7 @@
 		AE537CF01CD3629F00C8A585 /* HDUtil */ = {
 			isa = PBXGroup;
 			children = (
+				AEFD8C8F1CD8837900AEFB4A /* HDNetWork */,
 				AEFD8C851CD843F600AEFB4A /* HDNavigation */,
 				AE537CF11CD362D400C8A585 /* HDCategory */,
 			);
@@ -106,6 +116,10 @@
 		AE537CF11CD362D400C8A585 /* HDCategory */ = {
 			isa = PBXGroup;
 			children = (
+				AEFD8C891CD881AD00AEFB4A /* UITableView+HD.h */,
+				AEFD8C8A1CD881AD00AEFB4A /* UITableView+HD.m */,
+				AEFD8C8B1CD881AD00AEFB4A /* UITableViewCell+HD.h */,
+				AEFD8C8C1CD881AD00AEFB4A /* UITableViewCell+HD.m */,
 				AE537CF21CD362F100C8A585 /* UIView+HD.h */,
 				AE537CF31CD362F100C8A585 /* UIView+HD.m */,
 			);
@@ -161,6 +175,15 @@
 				AEFD8C871CD844A600AEFB4A /* HDNavigation.m */,
 			);
 			path = HDNavigation;
+			sourceTree = "<group>";
+		};
+		AEFD8C8F1CD8837900AEFB4A /* HDNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD8C901CD8893400AEFB4A /* HDNetWork.h */,
+				AEFD8C911CD8893400AEFB4A /* HDNetWork.m */,
+			);
+			path = HDNetWork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,9 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEFD8C8E1CD881AD00AEFB4A /* UITableViewCell+HD.m in Sources */,
 				AE537CEB1CD3510200C8A585 /* HDBaseModel.m in Sources */,
 				AE537CEE1CD3510200C8A585 /* HDBaseViewModel.m in Sources */,
 				AE537CEC1CD3510200C8A585 /* HDBaseNVC.m in Sources */,
+				AEFD8C921CD8893400AEFB4A /* HDNetWork.m in Sources */,
+				AEFD8C8D1CD881AD00AEFB4A /* UITableView+HD.m in Sources */,
 				AEFBF9DB1C5220BD003D55B2 /* AppDelegate.m in Sources */,
 				AEFBF9D81C5220BD003D55B2 /* main.m in Sources */,
 				AE537CEA1CD3510200C8A585 /* HDBaseCell.m in Sources */,
