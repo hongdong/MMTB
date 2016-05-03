@@ -7,16 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "HDTabBarVC.h"
-#import "HDVMServices.h"
-#import "HDNavigationControllerStack.h"
-#import "HDTabBarVM.h"
+
 
 @interface AppDelegate ()
-
-@property (nonatomic, strong)  HDVMServices *services;
-
-@property (nonatomic, strong, readwrite) HDNavigationControllerStack *navigationControllerStack;
 
 @end
 
@@ -24,17 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    //懒初始化HDNavigationControllerStack
     [self configAppearanceUI];
-    [self navigationControllerStack];
-    [self.services resetWindowRootViewModel:[self createInitialViewModel]];
     [self.window makeKeyAndVisible];
     return YES;
 }
 
-- (HDBaseVM *)createInitialViewModel {
-        return [[HDTabBarVM alloc] initWithServices:self.services params:nil];
-}
 
 - (void)configAppearanceUI{
     [[UINavigationBar appearance] setShadowImage:[UIImage new]];
@@ -72,27 +59,6 @@
         _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     }
     return _window;
-}
-
--(HDTabBarVC *)tabBarController{
-    if (!_tabBarController) {
-        _tabBarController = [[HDTabBarVC alloc] init];
-    }
-    return _tabBarController;
-}
-
--(HDVMServices *)services{
-    if (!_services) {
-        _services = [[HDVMServices alloc] init];
-    }
-    return _services;
-}
-
--(HDNavigationControllerStack *)navigationControllerStack{
-    if (!_navigationControllerStack) {
-        _navigationControllerStack = [[HDNavigationControllerStack alloc] initWithServices:self.services];
-    }
-    return _navigationControllerStack;
 }
 
 

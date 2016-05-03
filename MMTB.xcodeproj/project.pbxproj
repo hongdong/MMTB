@@ -7,77 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07F2EF241C584AD500D555DE /* UITableViewCell+HDMVVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F2EF231C584AD500D555DE /* UITableViewCell+HDMVVM.m */; };
-		07F2EF271C584AED00D555DE /* UIView+HDMVVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F2EF261C584AED00D555DE /* UIView+HDMVVM.m */; };
 		43808ADC49B310BB91D204A9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E054F27BEB6FF06CBFD14328 /* libPods.a */; };
-		AEC056001C574413009DBCBF /* UIViewController+HDMVVM.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC055FF1C574413009DBCBF /* UIViewController+HDMVVM.m */; };
-		AEC056031C574A1C009DBCBF /* HDVVMRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC056021C574A1C009DBCBF /* HDVVMRouter.m */; };
-		AEC0560A1C575568009DBCBF /* HDMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC056081C575568009DBCBF /* HDMineVC.m */; };
-		AEC0560B1C575568009DBCBF /* HDMineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEC056091C575568009DBCBF /* HDMineVC.xib */; };
-		AEC0560F1C575580009DBCBF /* HDHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC0560D1C575580009DBCBF /* HDHomeVC.m */; };
-		AEC056101C575580009DBCBF /* HDHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEC0560E1C575580009DBCBF /* HDHomeVC.xib */; };
-		AEC056151C575E59009DBCBF /* HDHomeVM.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC056141C575E59009DBCBF /* HDHomeVM.m */; };
-		AEC056181C575E69009DBCBF /* HDMineVM.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC056171C575E69009DBCBF /* HDMineVM.m */; };
-		AEC0561B1C577958009DBCBF /* HDTableHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC0561A1C577958009DBCBF /* HDTableHelper.m */; };
-		AEF4E3E31C5717F30086F35B /* HDTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3E11C5717F30086F35B /* HDTabBarVC.m */; };
-		AEF4E3E91C5719650086F35B /* HDBaseVM.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3E81C5719650086F35B /* HDBaseVM.m */; };
-		AEF4E3ED1C571BF60086F35B /* HDVMServices.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3EC1C571BF60086F35B /* HDVMServices.m */; };
-		AEF4E3F11C571D980086F35B /* HDNavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3F01C571D980086F35B /* HDNavigationControllerStack.m */; };
-		AEF4E3F41C571FD60086F35B /* HDBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3F31C571FD60086F35B /* HDBaseVC.m */; };
-		AEF4E3FC1C5724AC0086F35B /* HDBaseNVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3FB1C5724AC0086F35B /* HDBaseNVC.m */; };
-		AEF4E3FF1C5732E30086F35B /* HDTabBarVM.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF4E3FE1C5732E30086F35B /* HDTabBarVM.m */; };
+		AE537CEA1CD3510200C8A585 /* HDBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE537CE11CD3510200C8A585 /* HDBaseCell.m */; };
+		AE537CEB1CD3510200C8A585 /* HDBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE537CE31CD3510200C8A585 /* HDBaseModel.m */; };
+		AE537CEC1CD3510200C8A585 /* HDBaseNVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE537CE51CD3510200C8A585 /* HDBaseNVC.m */; };
+		AE537CED1CD3510200C8A585 /* HDBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE537CE71CD3510200C8A585 /* HDBaseVC.m */; };
+		AE537CEE1CD3510200C8A585 /* HDBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE537CE91CD3510200C8A585 /* HDBaseViewModel.m */; };
+		AE537CF41CD362F100C8A585 /* UIView+HD.m in Sources */ = {isa = PBXBuildFile; fileRef = AE537CF31CD362F100C8A585 /* UIView+HD.m */; };
 		AEFBF9D81C5220BD003D55B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFBF9D71C5220BD003D55B2 /* main.m */; };
 		AEFBF9DB1C5220BD003D55B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFBF9DA1C5220BD003D55B2 /* AppDelegate.m */; };
 		AEFBF9E31C5220BD003D55B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFBF9E21C5220BD003D55B2 /* Assets.xcassets */; };
+		AEFD8C881CD844A600AEFB4A /* HDNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFD8C871CD844A600AEFB4A /* HDNavigation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		07428B161C57C42400E28155 /* HDViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDViewProtocol.h; sourceTree = "<group>"; };
-		07F2EF221C584AD500D555DE /* UITableViewCell+HDMVVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HDMVVM.h"; sourceTree = "<group>"; };
-		07F2EF231C584AD500D555DE /* UITableViewCell+HDMVVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HDMVVM.m"; sourceTree = "<group>"; };
-		07F2EF251C584AED00D555DE /* UIView+HDMVVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HDMVVM.h"; sourceTree = "<group>"; };
-		07F2EF261C584AED00D555DE /* UIView+HDMVVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HDMVVM.m"; sourceTree = "<group>"; };
 		115AA58BFF6F1FF2E1BE297A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A0A4682EC964CAE6CCE45CBA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		AEC055FE1C574413009DBCBF /* UIViewController+HDMVVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HDMVVM.h"; sourceTree = "<group>"; };
-		AEC055FF1C574413009DBCBF /* UIViewController+HDMVVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HDMVVM.m"; sourceTree = "<group>"; };
-		AEC056011C574A1C009DBCBF /* HDVVMRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDVVMRouter.h; sourceTree = "<group>"; };
-		AEC056021C574A1C009DBCBF /* HDVVMRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDVVMRouter.m; sourceTree = "<group>"; };
-		AEC056071C575568009DBCBF /* HDMineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMineVC.h; sourceTree = "<group>"; };
-		AEC056081C575568009DBCBF /* HDMineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMineVC.m; sourceTree = "<group>"; };
-		AEC056091C575568009DBCBF /* HDMineVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDMineVC.xib; sourceTree = "<group>"; };
-		AEC0560C1C575580009DBCBF /* HDHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDHomeVC.h; sourceTree = "<group>"; };
-		AEC0560D1C575580009DBCBF /* HDHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDHomeVC.m; sourceTree = "<group>"; };
-		AEC0560E1C575580009DBCBF /* HDHomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDHomeVC.xib; sourceTree = "<group>"; };
-		AEC056131C575E59009DBCBF /* HDHomeVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDHomeVM.h; sourceTree = "<group>"; };
-		AEC056141C575E59009DBCBF /* HDHomeVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDHomeVM.m; sourceTree = "<group>"; };
-		AEC056161C575E69009DBCBF /* HDMineVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMineVM.h; sourceTree = "<group>"; };
-		AEC056171C575E69009DBCBF /* HDMineVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMineVM.m; sourceTree = "<group>"; };
-		AEC056191C577958009DBCBF /* HDTableHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTableHelper.h; sourceTree = "<group>"; };
-		AEC0561A1C577958009DBCBF /* HDTableHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTableHelper.m; sourceTree = "<group>"; };
-		AEF4E3E01C5717F30086F35B /* HDTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTabBarVC.h; sourceTree = "<group>"; };
-		AEF4E3E11C5717F30086F35B /* HDTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTabBarVC.m; sourceTree = "<group>"; };
-		AEF4E3E51C5718F50086F35B /* HDNavigationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDNavigationProtocol.h; sourceTree = "<group>"; };
-		AEF4E3E71C5719650086F35B /* HDBaseVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseVM.h; sourceTree = "<group>"; };
-		AEF4E3E81C5719650086F35B /* HDBaseVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDBaseVM.m; sourceTree = "<group>"; };
-		AEF4E3EA1C571B8F0086F35B /* HDViewModelServicesProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDViewModelServicesProtocol.h; sourceTree = "<group>"; };
-		AEF4E3EB1C571BF60086F35B /* HDVMServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDVMServices.h; sourceTree = "<group>"; };
-		AEF4E3EC1C571BF60086F35B /* HDVMServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDVMServices.m; sourceTree = "<group>"; };
-		AEF4E3EF1C571D980086F35B /* HDNavigationControllerStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDNavigationControllerStack.h; sourceTree = "<group>"; };
-		AEF4E3F01C571D980086F35B /* HDNavigationControllerStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDNavigationControllerStack.m; sourceTree = "<group>"; };
-		AEF4E3F21C571FD60086F35B /* HDBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseVC.h; sourceTree = "<group>"; };
-		AEF4E3F31C571FD60086F35B /* HDBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDBaseVC.m; sourceTree = "<group>"; };
-		AEF4E3F51C5721CD0086F35B /* HDMacrosHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMacrosHeader.h; sourceTree = "<group>"; };
-		AEF4E3FA1C5724AC0086F35B /* HDBaseNVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseNVC.h; sourceTree = "<group>"; };
-		AEF4E3FB1C5724AC0086F35B /* HDBaseNVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDBaseNVC.m; sourceTree = "<group>"; };
-		AEF4E3FD1C5732E30086F35B /* HDTabBarVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTabBarVM.h; sourceTree = "<group>"; };
-		AEF4E3FE1C5732E30086F35B /* HDTabBarVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTabBarVM.m; sourceTree = "<group>"; };
+		AE537CE01CD3510200C8A585 /* HDBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseCell.h; sourceTree = "<group>"; };
+		AE537CE11CD3510200C8A585 /* HDBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDBaseCell.m; sourceTree = "<group>"; };
+		AE537CE21CD3510200C8A585 /* HDBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseModel.h; sourceTree = "<group>"; };
+		AE537CE31CD3510200C8A585 /* HDBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDBaseModel.m; sourceTree = "<group>"; };
+		AE537CE41CD3510200C8A585 /* HDBaseNVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseNVC.h; sourceTree = "<group>"; };
+		AE537CE51CD3510200C8A585 /* HDBaseNVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDBaseNVC.m; sourceTree = "<group>"; };
+		AE537CE61CD3510200C8A585 /* HDBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseVC.h; sourceTree = "<group>"; };
+		AE537CE71CD3510200C8A585 /* HDBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDBaseVC.m; sourceTree = "<group>"; };
+		AE537CE81CD3510200C8A585 /* HDBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseViewModel.h; sourceTree = "<group>"; };
+		AE537CE91CD3510200C8A585 /* HDBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDBaseViewModel.m; sourceTree = "<group>"; };
+		AE537CEF1CD352BA00C8A585 /* HDCommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDCommonHeader.h; sourceTree = "<group>"; };
+		AE537CF21CD362F100C8A585 /* UIView+HD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HD.h"; sourceTree = "<group>"; };
+		AE537CF31CD362F100C8A585 /* UIView+HD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HD.m"; sourceTree = "<group>"; };
+		AE537CF51CD3667100C8A585 /* HDTHEMEConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTHEMEConfig.h; sourceTree = "<group>"; };
 		AEFBF9D31C5220BD003D55B2 /* MMTB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMTB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFBF9D71C5220BD003D55B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEFBF9D91C5220BD003D55B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEFBF9DA1C5220BD003D55B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AEFBF9E21C5220BD003D55B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEFBF9E71C5220BD003D55B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFD8C861CD844A600AEFB4A /* HDNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDNavigation.h; sourceTree = "<group>"; };
+		AEFD8C871CD844A600AEFB4A /* HDNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDNavigation.m; sourceTree = "<group>"; };
 		E054F27BEB6FF06CBFD14328 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -110,140 +77,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AEC055FB1C5742A6009DBCBF /* HDHome */ = {
+		AE537CDF1CD3510200C8A585 /* HDBase */ = {
 			isa = PBXGroup;
 			children = (
-				AEC0560C1C575580009DBCBF /* HDHomeVC.h */,
-				AEC0560D1C575580009DBCBF /* HDHomeVC.m */,
-				AEC0560E1C575580009DBCBF /* HDHomeVC.xib */,
-			);
-			path = HDHome;
-			sourceTree = "<group>";
-		};
-		AEC055FC1C5742A6009DBCBF /* HDMine */ = {
-			isa = PBXGroup;
-			children = (
-				AEC056071C575568009DBCBF /* HDMineVC.h */,
-				AEC056081C575568009DBCBF /* HDMineVC.m */,
-				AEC056091C575568009DBCBF /* HDMineVC.xib */,
-			);
-			path = HDMine;
-			sourceTree = "<group>";
-		};
-		AEC055FD1C5743E4009DBCBF /* HDCategories */ = {
-			isa = PBXGroup;
-			children = (
-				AEC055FE1C574413009DBCBF /* UIViewController+HDMVVM.h */,
-				AEC055FF1C574413009DBCBF /* UIViewController+HDMVVM.m */,
-				07F2EF221C584AD500D555DE /* UITableViewCell+HDMVVM.h */,
-				07F2EF231C584AD500D555DE /* UITableViewCell+HDMVVM.m */,
-				07F2EF251C584AED00D555DE /* UIView+HDMVVM.h */,
-				07F2EF261C584AED00D555DE /* UIView+HDMVVM.m */,
-			);
-			path = HDCategories;
-			sourceTree = "<group>";
-		};
-		AEC056111C575E3A009DBCBF /* HDHome */ = {
-			isa = PBXGroup;
-			children = (
-				AEC056131C575E59009DBCBF /* HDHomeVM.h */,
-				AEC056141C575E59009DBCBF /* HDHomeVM.m */,
-			);
-			path = HDHome;
-			sourceTree = "<group>";
-		};
-		AEC056121C575E3A009DBCBF /* HDMine */ = {
-			isa = PBXGroup;
-			children = (
-				AEC056161C575E69009DBCBF /* HDMineVM.h */,
-				AEC056171C575E69009DBCBF /* HDMineVM.m */,
-			);
-			path = HDMine;
-			sourceTree = "<group>";
-		};
-		AEF4E3DD1C5717F30086F35B /* HDModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = HDModel;
-			sourceTree = "<group>";
-		};
-		AEF4E3DE1C5717F30086F35B /* HDView */ = {
-			isa = PBXGroup;
-			children = (
-				AEC055FB1C5742A6009DBCBF /* HDHome */,
-				AEC055FC1C5742A6009DBCBF /* HDMine */,
-				AEF4E3EE1C571D7B0086F35B /* HDBase */,
-				AEF4E3DF1C5717F30086F35B /* HDTabBarVC */,
-			);
-			path = HDView;
-			sourceTree = "<group>";
-		};
-		AEF4E3DF1C5717F30086F35B /* HDTabBarVC */ = {
-			isa = PBXGroup;
-			children = (
-				AEF4E3E01C5717F30086F35B /* HDTabBarVC.h */,
-				AEF4E3E11C5717F30086F35B /* HDTabBarVC.m */,
-			);
-			path = HDTabBarVC;
-			sourceTree = "<group>";
-		};
-		AEF4E3E21C5717F30086F35B /* HDViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				AEC056111C575E3A009DBCBF /* HDHome */,
-				AEC056121C575E3A009DBCBF /* HDMine */,
-				AEF4E3E61C5719480086F35B /* HDBase */,
-				AEF4E3E41C5718B50086F35B /* HDVMServices */,
-				AEF4E3FD1C5732E30086F35B /* HDTabBarVM.h */,
-				AEF4E3FE1C5732E30086F35B /* HDTabBarVM.m */,
-			);
-			path = HDViewModel;
-			sourceTree = "<group>";
-		};
-		AEF4E3E41C5718B50086F35B /* HDVMServices */ = {
-			isa = PBXGroup;
-			children = (
-				AEF4E3E51C5718F50086F35B /* HDNavigationProtocol.h */,
-				AEF4E3EA1C571B8F0086F35B /* HDViewModelServicesProtocol.h */,
-				AEF4E3EB1C571BF60086F35B /* HDVMServices.h */,
-				AEF4E3EC1C571BF60086F35B /* HDVMServices.m */,
-			);
-			path = HDVMServices;
-			sourceTree = "<group>";
-		};
-		AEF4E3E61C5719480086F35B /* HDBase */ = {
-			isa = PBXGroup;
-			children = (
-				AEF4E3E71C5719650086F35B /* HDBaseVM.h */,
-				AEF4E3E81C5719650086F35B /* HDBaseVM.m */,
-				AEC056191C577958009DBCBF /* HDTableHelper.h */,
-				AEC0561A1C577958009DBCBF /* HDTableHelper.m */,
+				AE537CE01CD3510200C8A585 /* HDBaseCell.h */,
+				AE537CE11CD3510200C8A585 /* HDBaseCell.m */,
+				AE537CE21CD3510200C8A585 /* HDBaseModel.h */,
+				AE537CE31CD3510200C8A585 /* HDBaseModel.m */,
+				AE537CE41CD3510200C8A585 /* HDBaseNVC.h */,
+				AE537CE51CD3510200C8A585 /* HDBaseNVC.m */,
+				AE537CE61CD3510200C8A585 /* HDBaseVC.h */,
+				AE537CE71CD3510200C8A585 /* HDBaseVC.m */,
+				AE537CE81CD3510200C8A585 /* HDBaseViewModel.h */,
+				AE537CE91CD3510200C8A585 /* HDBaseViewModel.m */,
 			);
 			path = HDBase;
 			sourceTree = "<group>";
 		};
-		AEF4E3EE1C571D7B0086F35B /* HDBase */ = {
+		AE537CF01CD3629F00C8A585 /* HDUtil */ = {
 			isa = PBXGroup;
 			children = (
-				AEF4E3EF1C571D980086F35B /* HDNavigationControllerStack.h */,
-				AEF4E3F01C571D980086F35B /* HDNavigationControllerStack.m */,
-				AEF4E3F21C571FD60086F35B /* HDBaseVC.h */,
-				AEF4E3F31C571FD60086F35B /* HDBaseVC.m */,
-				AEF4E3FA1C5724AC0086F35B /* HDBaseNVC.h */,
-				AEF4E3FB1C5724AC0086F35B /* HDBaseNVC.m */,
-				07428B161C57C42400E28155 /* HDViewProtocol.h */,
+				AEFD8C851CD843F600AEFB4A /* HDNavigation */,
+				AE537CF11CD362D400C8A585 /* HDCategory */,
 			);
-			path = HDBase;
+			path = HDUtil;
 			sourceTree = "<group>";
 		};
-		AEF4E3F61C5722970086F35B /* HDRouter */ = {
+		AE537CF11CD362D400C8A585 /* HDCategory */ = {
 			isa = PBXGroup;
 			children = (
-				AEC056011C574A1C009DBCBF /* HDVVMRouter.h */,
-				AEC056021C574A1C009DBCBF /* HDVVMRouter.m */,
+				AE537CF21CD362F100C8A585 /* UIView+HD.h */,
+				AE537CF31CD362F100C8A585 /* UIView+HD.m */,
 			);
-			path = HDRouter;
+			path = HDCategory;
 			sourceTree = "<group>";
 		};
 		AEFBF9CA1C5220BD003D55B2 = {
@@ -267,14 +133,12 @@
 		AEFBF9D51C5220BD003D55B2 /* MMTB */ = {
 			isa = PBXGroup;
 			children = (
-				AEC055FD1C5743E4009DBCBF /* HDCategories */,
-				AEF4E3F61C5722970086F35B /* HDRouter */,
-				AEF4E3DD1C5717F30086F35B /* HDModel */,
-				AEF4E3DE1C5717F30086F35B /* HDView */,
-				AEF4E3E21C5717F30086F35B /* HDViewModel */,
+				AE537CF01CD3629F00C8A585 /* HDUtil */,
+				AE537CDF1CD3510200C8A585 /* HDBase */,
 				AEFBF9D91C5220BD003D55B2 /* AppDelegate.h */,
 				AEFBF9DA1C5220BD003D55B2 /* AppDelegate.m */,
-				AEF4E3F51C5721CD0086F35B /* HDMacrosHeader.h */,
+				AE537CEF1CD352BA00C8A585 /* HDCommonHeader.h */,
+				AE537CF51CD3667100C8A585 /* HDTHEMEConfig.h */,
 				AEFBF9E21C5220BD003D55B2 /* Assets.xcassets */,
 				AEFBF9E71C5220BD003D55B2 /* Info.plist */,
 				AEFBF9D61C5220BD003D55B2 /* Supporting Files */,
@@ -288,6 +152,15 @@
 				AEFBF9D71C5220BD003D55B2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEFD8C851CD843F600AEFB4A /* HDNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD8C861CD844A600AEFB4A /* HDNavigation.h */,
+				AEFD8C871CD844A600AEFB4A /* HDNavigation.m */,
+			);
+			path = HDNavigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,9 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC056101C575580009DBCBF /* HDHomeVC.xib in Resources */,
 				AEFBF9E31C5220BD003D55B2 /* Assets.xcassets in Resources */,
-				AEC0560B1C575568009DBCBF /* HDMineVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,24 +282,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC0560F1C575580009DBCBF /* HDHomeVC.m in Sources */,
-				AEF4E3FF1C5732E30086F35B /* HDTabBarVM.m in Sources */,
-				07F2EF241C584AD500D555DE /* UITableViewCell+HDMVVM.m in Sources */,
-				AEF4E3E31C5717F30086F35B /* HDTabBarVC.m in Sources */,
-				07F2EF271C584AED00D555DE /* UIView+HDMVVM.m in Sources */,
-				AEC056151C575E59009DBCBF /* HDHomeVM.m in Sources */,
-				AEC056001C574413009DBCBF /* UIViewController+HDMVVM.m in Sources */,
+				AE537CEB1CD3510200C8A585 /* HDBaseModel.m in Sources */,
+				AE537CEE1CD3510200C8A585 /* HDBaseViewModel.m in Sources */,
+				AE537CEC1CD3510200C8A585 /* HDBaseNVC.m in Sources */,
 				AEFBF9DB1C5220BD003D55B2 /* AppDelegate.m in Sources */,
 				AEFBF9D81C5220BD003D55B2 /* main.m in Sources */,
-				AEC056181C575E69009DBCBF /* HDMineVM.m in Sources */,
-				AEF4E3FC1C5724AC0086F35B /* HDBaseNVC.m in Sources */,
-				AEF4E3E91C5719650086F35B /* HDBaseVM.m in Sources */,
-				AEF4E3F11C571D980086F35B /* HDNavigationControllerStack.m in Sources */,
-				AEF4E3ED1C571BF60086F35B /* HDVMServices.m in Sources */,
-				AEC0560A1C575568009DBCBF /* HDMineVC.m in Sources */,
-				AEC056031C574A1C009DBCBF /* HDVVMRouter.m in Sources */,
-				AEC0561B1C577958009DBCBF /* HDTableHelper.m in Sources */,
-				AEF4E3F41C571FD60086F35B /* HDBaseVC.m in Sources */,
+				AE537CEA1CD3510200C8A585 /* HDBaseCell.m in Sources */,
+				AE537CF41CD362F100C8A585 /* UIView+HD.m in Sources */,
+				AEFD8C881CD844A600AEFB4A /* HDNavigation.m in Sources */,
+				AE537CED1CD3510200C8A585 /* HDBaseVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
