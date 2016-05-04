@@ -13,8 +13,6 @@
 
 static NSString * const HDNetWorkCacheKey = @"HDNetWorkCacheKey";
 
-static NSString * const HTTP_SERVER = @"http://www.abnerh.com/";
-
 #define HDPOST(_URL_,_urlParmArr_,_parmDic_) ([[HDNetWork sharedNetWork] HDPOST:[HDAPIUrlManager HDGenerateURLWithPattern:_URL_ parameters:_urlParmArr_] parameters:_parmDic_])
 
 #define HDGET(_URL_,_urlParmArr_,_parmDic_) ([[HDNetWork sharedNetWork] HDGET:[HDAPIUrlManager HDGenerateURLWithPattern:_URL_ parameters:_urlParmArr_] parameters:_parmDic_])

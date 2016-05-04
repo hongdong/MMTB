@@ -21,6 +21,9 @@
 		AEFD8C8D1CD881AD00AEFB4A /* UITableView+HD.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFD8C8A1CD881AD00AEFB4A /* UITableView+HD.m */; };
 		AEFD8C8E1CD881AD00AEFB4A /* UITableViewCell+HD.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFD8C8C1CD881AD00AEFB4A /* UITableViewCell+HD.m */; };
 		AEFD8C921CD8893400AEFB4A /* HDNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFD8C911CD8893400AEFB4A /* HDNetWork.m */; };
+		AEFD8C981CD993F700AEFB4A /* HDModelUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFD8C971CD993F700AEFB4A /* HDModelUser.m */; };
+		AEFD8C9B1CD9944D00AEFB4A /* HDLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFD8C9A1CD9944D00AEFB4A /* HDLoginManager.m */; };
+		AEFD8C9F1CD9970100AEFB4A /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFD8C9E1CD9970100AEFB4A /* GVUserDefaults+Properties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,12 @@
 		AEFD8C8C1CD881AD00AEFB4A /* UITableViewCell+HD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HD.m"; sourceTree = "<group>"; };
 		AEFD8C901CD8893400AEFB4A /* HDNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDNetWork.h; sourceTree = "<group>"; };
 		AEFD8C911CD8893400AEFB4A /* HDNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDNetWork.m; sourceTree = "<group>"; };
+		AEFD8C961CD993F700AEFB4A /* HDModelUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDModelUser.h; sourceTree = "<group>"; };
+		AEFD8C971CD993F700AEFB4A /* HDModelUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDModelUser.m; sourceTree = "<group>"; };
+		AEFD8C991CD9944D00AEFB4A /* HDLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDLoginManager.h; sourceTree = "<group>"; };
+		AEFD8C9A1CD9944D00AEFB4A /* HDLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDLoginManager.m; sourceTree = "<group>"; };
+		AEFD8C9D1CD9970100AEFB4A /* GVUserDefaults+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GVUserDefaults+Properties.h"; sourceTree = "<group>"; };
+		AEFD8C9E1CD9970100AEFB4A /* GVUserDefaults+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GVUserDefaults+Properties.m"; sourceTree = "<group>"; };
 		E054F27BEB6FF06CBFD14328 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -106,6 +115,7 @@
 		AE537CF01CD3629F00C8A585 /* HDUtil */ = {
 			isa = PBXGroup;
 			children = (
+				AEFD8C9C1CD9970100AEFB4A /* HDUserDefaults */,
 				AEFD8C8F1CD8837900AEFB4A /* HDNetWork */,
 				AEFD8C851CD843F600AEFB4A /* HDNavigation */,
 				AE537CF11CD362D400C8A585 /* HDCategory */,
@@ -147,6 +157,8 @@
 		AEFBF9D51C5220BD003D55B2 /* MMTB */ = {
 			isa = PBXGroup;
 			children = (
+				AEFD8C951CD993D500AEFB4A /* HDModel */,
+				AEFD8C931CD9936200AEFB4A /* HDLogin */,
 				AE537CF01CD3629F00C8A585 /* HDUtil */,
 				AE537CDF1CD3510200C8A585 /* HDBase */,
 				AEFBF9D91C5220BD003D55B2 /* AppDelegate.h */,
@@ -184,6 +196,41 @@
 				AEFD8C911CD8893400AEFB4A /* HDNetWork.m */,
 			);
 			path = HDNetWork;
+			sourceTree = "<group>";
+		};
+		AEFD8C931CD9936200AEFB4A /* HDLogin */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD8C941CD9939700AEFB4A /* HDLoginManager */,
+			);
+			path = HDLogin;
+			sourceTree = "<group>";
+		};
+		AEFD8C941CD9939700AEFB4A /* HDLoginManager */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD8C991CD9944D00AEFB4A /* HDLoginManager.h */,
+				AEFD8C9A1CD9944D00AEFB4A /* HDLoginManager.m */,
+			);
+			path = HDLoginManager;
+			sourceTree = "<group>";
+		};
+		AEFD8C951CD993D500AEFB4A /* HDModel */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD8C961CD993F700AEFB4A /* HDModelUser.h */,
+				AEFD8C971CD993F700AEFB4A /* HDModelUser.m */,
+			);
+			path = HDModel;
+			sourceTree = "<group>";
+		};
+		AEFD8C9C1CD9970100AEFB4A /* HDUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD8C9D1CD9970100AEFB4A /* GVUserDefaults+Properties.h */,
+				AEFD8C9E1CD9970100AEFB4A /* GVUserDefaults+Properties.m */,
+			);
+			path = HDUserDefaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,9 +359,12 @@
 				AEFD8C921CD8893400AEFB4A /* HDNetWork.m in Sources */,
 				AEFD8C8D1CD881AD00AEFB4A /* UITableView+HD.m in Sources */,
 				AEFBF9DB1C5220BD003D55B2 /* AppDelegate.m in Sources */,
+				AEFD8C9B1CD9944D00AEFB4A /* HDLoginManager.m in Sources */,
 				AEFBF9D81C5220BD003D55B2 /* main.m in Sources */,
 				AE537CEA1CD3510200C8A585 /* HDBaseCell.m in Sources */,
 				AE537CF41CD362F100C8A585 /* UIView+HD.m in Sources */,
+				AEFD8C9F1CD9970100AEFB4A /* GVUserDefaults+Properties.m in Sources */,
+				AEFD8C981CD993F700AEFB4A /* HDModelUser.m in Sources */,
 				AEFD8C881CD844A600AEFB4A /* HDNavigation.m in Sources */,
 				AE537CED1CD3510200C8A585 /* HDBaseVC.m in Sources */,
 			);

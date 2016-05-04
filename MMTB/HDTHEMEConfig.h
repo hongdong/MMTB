@@ -9,6 +9,8 @@
 #ifndef HDTHEMEConfig_h
 #define HDTHEMEConfig_h
 
+#define HTTP_SERVER @"http://www.abnerh.com/"
+
 #define HDTHEME_COLOR [UIColor blackColor]
 
 

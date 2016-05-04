@@ -10,6 +10,7 @@
 
 #import "HDNetWork.h"
 #import "HDCommonHeader.h"
+#import "HDTHEMEConfig.h"
 
 NSString *const RACAFNResponseObjectErrorKey = @"responseObject";
 
