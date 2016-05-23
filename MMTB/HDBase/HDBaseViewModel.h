@@ -16,6 +16,8 @@
 
 - (instancetype)initWithParams:(NSDictionary *)params;
 
+- (instancetype)initWithBlock:(VoidBlock_id)block;
+
 - (void)HDInitialize;
 
 - (__kindof HDBaseVC *)routerVC;

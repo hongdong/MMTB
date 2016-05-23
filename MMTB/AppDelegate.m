@@ -7,7 +7,12 @@
 //
 
 #import "AppDelegate.h"
-
+#import "HDNavigation.h"
+#import "HDLoginManager.h"
+#import <iConsole/iConsole.h>
+#import "IQKeyboardManager.h"
+#import "SVProgressHUD.h"
+#import <MMPopupView.h>
 
 @interface AppDelegate ()
 
@@ -17,13 +22,39 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    #ifdef DEBUG
+    [iConsole sharedConsole].enabled=YES;
+    #else
+    [iConsole sharedConsole].enabled=NO;
+    #endif
+    
+    [IQKeyboardManager sharedManager].shouldResignOnTouchOutside=YES;
+    [IQKeyboardManager sharedManager].enableAutoToolbar=NO;
+    [MMPopupWindow sharedWindow].touchWildToHide = YES;
+    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
+    [SVProgressHUD setMinimumDismissTimeInterval:1];
+
     [self configAppearanceUI];
-    [self.window makeKeyAndVisible];
+    
+    [HDNavigation HDResetWindowRootViewModel:[self createInitialViewModel]];
+    
     return YES;
+    
+}
+
+- (HDBaseViewModel *)createInitialViewModel {
+    if ([HDLoginManager isLogin]) {
+        return nil;
+    }else{
+        return nil;
+    }
 }
 
 
+
 - (void)configAppearanceUI{
+    self.window.backgroundColor=[UIColor whiteColor];
     [[UINavigationBar appearance] setShadowImage:[UIImage new]];
 }
 

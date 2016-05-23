@@ -19,11 +19,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>FoldingTabBar.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>GVUserDefaults.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -50,6 +45,11 @@
 			<false/>
 		</dict>
 		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MMPopupView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -122,12 +122,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>06FA16FCF74ACE3370D9666F0AF3A64C</key>
+		<key>12A883089D5A217406E8B6B2706CE210</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>37BD95D0AD231A896FB32C19C0D97A7A</key>
+		<key>33760D00F0A9F858E0DDB5EE4C60C90D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>351D334B3C0B49938E167678166C1A44</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -137,7 +142,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>51B5352EAFA877E44F3158FD5C138B42</key>
+		<key>4A57C56C9D985E21A0097A21577EF788</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4DF40E90B80EA7D6685D1F8C6EB90DF9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -152,27 +162,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>56CCF14E9FFE14EC250542F6987DC1CE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>5B38D856A54046A05C2B47BFB0A74D25</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>618E85BDFCDD0208B982AC2801AD4460</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>803FDAC4D95D4E77F24481F788E72504</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>89C28E285C8BD632983420C697427509</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -182,17 +172,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9145E070690055EA2D82D264E78B0F71</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>928353533005A4198EBDA5B700D37B64</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>99AEB5A9822A229FFB5C3CF7B854F018</key>
+		<key>929912BF403CB0C9B950863116F0DE24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>985CD6AD1C75BAABE65D06BDAF4F2DCB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -202,12 +192,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A97C58F66CE9C59C15A75385A49393DB</key>
+		<key>AE754C895740E149BEDAAEBE5E8F8D53</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CF4405E19DD99D7A6C6EF5065C000E2F</key>
+		<key>AE7848A9F304C3A03CFA004517196E25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD332A8D69B3112436140BC44EA927E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CFD549F7706834927D6A2CB8246A0764</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -222,17 +222,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DE7BA8DBF33C387EDCAD11BD720AB82A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>E0807A3AF0C94A8B9ECFAF0342F803E5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>EE13F065F54908445C7E24BA65896AF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F6CDBA10626A745C7604113C9279C18E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

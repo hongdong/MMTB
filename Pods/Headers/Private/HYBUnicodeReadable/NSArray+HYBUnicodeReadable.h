@@ -1,1 +1,1 @@
-../../../HYBUnicodeReadable/HYBUnicodeReadable/NSArray+HYBUnicodeReadable.h
+../../../HYBUnicodeReadable/NSArray+HYBUnicodeReadable.h

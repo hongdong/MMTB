@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		43808ADC49B310BB91D204A9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E054F27BEB6FF06CBFD14328 /* libPods.a */; };
+		AE054A2C1CF2A6D20051C5F8 /* HDTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE054A2B1CF2A6D20051C5F8 /* HDTabBarVC.m */; };
+		AE054A2F1CF2AC060051C5F8 /* HDTabBarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE054A2E1CF2AC060051C5F8 /* HDTabBarViewModel.m */; };
+		AE054A361CF2D4FD0051C5F8 /* HDHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE054A341CF2D4FD0051C5F8 /* HDHomeVC.m */; };
+		AE054A371CF2D4FD0051C5F8 /* HDHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE054A351CF2D4FD0051C5F8 /* HDHomeVC.xib */; };
+		AE054A3B1CF2D5180051C5F8 /* HDMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE054A391CF2D5180051C5F8 /* HDMessageVC.m */; };
+		AE054A3C1CF2D5180051C5F8 /* HDMessageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE054A3A1CF2D5180051C5F8 /* HDMessageVC.xib */; };
+		AE054A401CF2D52A0051C5F8 /* HDMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE054A3E1CF2D52A0051C5F8 /* HDMineVC.m */; };
+		AE054A411CF2D52A0051C5F8 /* HDMineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE054A3F1CF2D52A0051C5F8 /* HDMineVC.xib */; };
+		AE054A441CF2D5490051C5F8 /* HDHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE054A431CF2D5490051C5F8 /* HDHomeViewModel.m */; };
+		AE054A471CF2D5570051C5F8 /* HDMessageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE054A461CF2D5570051C5F8 /* HDMessageViewModel.m */; };
+		AE054A4A1CF2D5660051C5F8 /* HDMineViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE054A491CF2D5660051C5F8 /* HDMineViewModel.m */; };
 		AE537CEA1CD3510200C8A585 /* HDBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE537CE11CD3510200C8A585 /* HDBaseCell.m */; };
 		AE537CEB1CD3510200C8A585 /* HDBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE537CE31CD3510200C8A585 /* HDBaseModel.m */; };
 		AE537CEC1CD3510200C8A585 /* HDBaseNVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE537CE51CD3510200C8A585 /* HDBaseNVC.m */; };
@@ -29,6 +40,25 @@
 /* Begin PBXFileReference section */
 		115AA58BFF6F1FF2E1BE297A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A0A4682EC964CAE6CCE45CBA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AE054A2A1CF2A6D20051C5F8 /* HDTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTabBarVC.h; sourceTree = "<group>"; };
+		AE054A2B1CF2A6D20051C5F8 /* HDTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTabBarVC.m; sourceTree = "<group>"; };
+		AE054A2D1CF2AC060051C5F8 /* HDTabBarViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTabBarViewModel.h; sourceTree = "<group>"; };
+		AE054A2E1CF2AC060051C5F8 /* HDTabBarViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTabBarViewModel.m; sourceTree = "<group>"; };
+		AE054A331CF2D4FD0051C5F8 /* HDHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDHomeVC.h; sourceTree = "<group>"; };
+		AE054A341CF2D4FD0051C5F8 /* HDHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDHomeVC.m; sourceTree = "<group>"; };
+		AE054A351CF2D4FD0051C5F8 /* HDHomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDHomeVC.xib; sourceTree = "<group>"; };
+		AE054A381CF2D5180051C5F8 /* HDMessageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMessageVC.h; sourceTree = "<group>"; };
+		AE054A391CF2D5180051C5F8 /* HDMessageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMessageVC.m; sourceTree = "<group>"; };
+		AE054A3A1CF2D5180051C5F8 /* HDMessageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDMessageVC.xib; sourceTree = "<group>"; };
+		AE054A3D1CF2D52A0051C5F8 /* HDMineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMineVC.h; sourceTree = "<group>"; };
+		AE054A3E1CF2D52A0051C5F8 /* HDMineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMineVC.m; sourceTree = "<group>"; };
+		AE054A3F1CF2D52A0051C5F8 /* HDMineVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDMineVC.xib; sourceTree = "<group>"; };
+		AE054A421CF2D5490051C5F8 /* HDHomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDHomeViewModel.h; sourceTree = "<group>"; };
+		AE054A431CF2D5490051C5F8 /* HDHomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDHomeViewModel.m; sourceTree = "<group>"; };
+		AE054A451CF2D5570051C5F8 /* HDMessageViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMessageViewModel.h; sourceTree = "<group>"; };
+		AE054A461CF2D5570051C5F8 /* HDMessageViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMessageViewModel.m; sourceTree = "<group>"; };
+		AE054A481CF2D5660051C5F8 /* HDMineViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMineViewModel.h; sourceTree = "<group>"; };
+		AE054A491CF2D5660051C5F8 /* HDMineViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMineViewModel.m; sourceTree = "<group>"; };
 		AE537CE01CD3510200C8A585 /* HDBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseCell.h; sourceTree = "<group>"; };
 		AE537CE11CD3510200C8A585 /* HDBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDBaseCell.m; sourceTree = "<group>"; };
 		AE537CE21CD3510200C8A585 /* HDBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseModel.h; sourceTree = "<group>"; };
@@ -95,6 +125,53 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AE054A291CF2A66E0051C5F8 /* HDTabVC */ = {
+			isa = PBXGroup;
+			children = (
+				AE054A2A1CF2A6D20051C5F8 /* HDTabBarVC.h */,
+				AE054A2B1CF2A6D20051C5F8 /* HDTabBarVC.m */,
+				AE054A2D1CF2AC060051C5F8 /* HDTabBarViewModel.h */,
+				AE054A2E1CF2AC060051C5F8 /* HDTabBarViewModel.m */,
+			);
+			path = HDTabVC;
+			sourceTree = "<group>";
+		};
+		AE054A301CF2D4340051C5F8 /* HDHome */ = {
+			isa = PBXGroup;
+			children = (
+				AE054A331CF2D4FD0051C5F8 /* HDHomeVC.h */,
+				AE054A341CF2D4FD0051C5F8 /* HDHomeVC.m */,
+				AE054A351CF2D4FD0051C5F8 /* HDHomeVC.xib */,
+				AE054A421CF2D5490051C5F8 /* HDHomeViewModel.h */,
+				AE054A431CF2D5490051C5F8 /* HDHomeViewModel.m */,
+			);
+			path = HDHome;
+			sourceTree = "<group>";
+		};
+		AE054A311CF2D43F0051C5F8 /* HDMessage */ = {
+			isa = PBXGroup;
+			children = (
+				AE054A381CF2D5180051C5F8 /* HDMessageVC.h */,
+				AE054A391CF2D5180051C5F8 /* HDMessageVC.m */,
+				AE054A3A1CF2D5180051C5F8 /* HDMessageVC.xib */,
+				AE054A451CF2D5570051C5F8 /* HDMessageViewModel.h */,
+				AE054A461CF2D5570051C5F8 /* HDMessageViewModel.m */,
+			);
+			path = HDMessage;
+			sourceTree = "<group>";
+		};
+		AE054A321CF2D4490051C5F8 /* HDMine */ = {
+			isa = PBXGroup;
+			children = (
+				AE054A3D1CF2D52A0051C5F8 /* HDMineVC.h */,
+				AE054A3E1CF2D52A0051C5F8 /* HDMineVC.m */,
+				AE054A3F1CF2D52A0051C5F8 /* HDMineVC.xib */,
+				AE054A481CF2D5660051C5F8 /* HDMineViewModel.h */,
+				AE054A491CF2D5660051C5F8 /* HDMineViewModel.m */,
+			);
+			path = HDMine;
+			sourceTree = "<group>";
+		};
 		AE537CDF1CD3510200C8A585 /* HDBase */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +234,10 @@
 		AEFBF9D51C5220BD003D55B2 /* MMTB */ = {
 			isa = PBXGroup;
 			children = (
+				AE054A301CF2D4340051C5F8 /* HDHome */,
+				AE054A311CF2D43F0051C5F8 /* HDMessage */,
+				AE054A321CF2D4490051C5F8 /* HDMine */,
+				AE054A291CF2A66E0051C5F8 /* HDTabVC */,
 				AEFD8C951CD993D500AEFB4A /* HDModel */,
 				AEFD8C931CD9936200AEFB4A /* HDLogin */,
 				AE537CF01CD3629F00C8A585 /* HDUtil */,
@@ -294,6 +375,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEFBF9E31C5220BD003D55B2 /* Assets.xcassets in Resources */,
+				AE054A3C1CF2D5180051C5F8 /* HDMessageVC.xib in Resources */,
+				AE054A371CF2D4FD0051C5F8 /* HDHomeVC.xib in Resources */,
+				AE054A411CF2D52A0051C5F8 /* HDMineVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,16 +438,24 @@
 			files = (
 				AEFD8C8E1CD881AD00AEFB4A /* UITableViewCell+HD.m in Sources */,
 				AE537CEB1CD3510200C8A585 /* HDBaseModel.m in Sources */,
+				AE054A441CF2D5490051C5F8 /* HDHomeViewModel.m in Sources */,
 				AE537CEE1CD3510200C8A585 /* HDBaseViewModel.m in Sources */,
+				AE054A4A1CF2D5660051C5F8 /* HDMineViewModel.m in Sources */,
+				AE054A471CF2D5570051C5F8 /* HDMessageViewModel.m in Sources */,
 				AE537CEC1CD3510200C8A585 /* HDBaseNVC.m in Sources */,
 				AEFD8C921CD8893400AEFB4A /* HDNetWork.m in Sources */,
+				AE054A361CF2D4FD0051C5F8 /* HDHomeVC.m in Sources */,
 				AEFD8C8D1CD881AD00AEFB4A /* UITableView+HD.m in Sources */,
+				AE054A401CF2D52A0051C5F8 /* HDMineVC.m in Sources */,
+				AE054A3B1CF2D5180051C5F8 /* HDMessageVC.m in Sources */,
 				AEFBF9DB1C5220BD003D55B2 /* AppDelegate.m in Sources */,
 				AEFD8C9B1CD9944D00AEFB4A /* HDLoginManager.m in Sources */,
+				AE054A2C1CF2A6D20051C5F8 /* HDTabBarVC.m in Sources */,
 				AEFBF9D81C5220BD003D55B2 /* main.m in Sources */,
 				AE537CEA1CD3510200C8A585 /* HDBaseCell.m in Sources */,
 				AE537CF41CD362F100C8A585 /* UIView+HD.m in Sources */,
 				AEFD8C9F1CD9970100AEFB4A /* GVUserDefaults+Properties.m in Sources */,
+				AE054A2F1CF2AC060051C5F8 /* HDTabBarViewModel.m in Sources */,
 				AEFD8C981CD993F700AEFB4A /* HDModelUser.m in Sources */,
 				AEFD8C881CD844A600AEFB4A /* HDNavigation.m in Sources */,
 				AE537CED1CD3510200C8A585 /* HDBaseVC.m in Sources */,

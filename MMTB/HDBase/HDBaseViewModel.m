@@ -44,6 +44,15 @@
     return self;
 }
 
+- (instancetype)initWithBlock:(VoidBlock_id)block{
+    self = [super init];
+    if (self) {
+        self.shouldRequestRemoteDataOnViewDidLoad = YES;
+        block(self);
+    }
+    return self;
+}
+
 - (__kindof HDBaseVC *)routerVC{
     
     NSString * className = [[[NSStringFromClass([self class]) componentsSeparatedByString:@"iewModel"] firstObject] stringByAppendingString:@"C"];

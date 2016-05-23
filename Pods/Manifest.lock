@@ -30,15 +30,16 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
-  - FoldingTabBar (1.0.2)
   - GVUserDefaults (1.0.2)
-  - HYBUnicodeReadable (1.1)
+  - HYBUnicodeReadable (1.2)
   - iConsole (1.5.3)
   - IQKeyboardManager (3.3.7)
   - JZNavigationExtension (1.4.7)
   - Masonry (1.0.0)
   - MJExtension (3.0.10)
   - MJRefresh (3.1.0)
+  - MMPopupView (1.7.2):
+    - Masonry
   - NullSafe (1.2.1)
   - PureLayout (3.0.1)
   - ReactiveCocoa (2.5):
@@ -50,9 +51,9 @@ PODS:
     - ReactiveCocoa/Core
   - SDCycleScrollView (1.64):
     - SDWebImage (~> 3.7)
-  - SDWebImage (3.7.5):
-    - SDWebImage/Core (= 3.7.5)
-  - SDWebImage/Core (3.7.5)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
   - SVProgressHUD (2.0.3)
   - UITableView+FDTemplateLayoutCell (1.4)
   - VGParallaxHeader (0.0.6):
@@ -64,7 +65,6 @@ DEPENDENCIES:
   - AFNetworking
   - Aspects
   - BlocksKit
-  - FoldingTabBar
   - GVUserDefaults
   - HYBUnicodeReadable
   - iConsole
@@ -73,6 +73,7 @@ DEPENDENCIES:
   - Masonry
   - MJExtension
   - MJRefresh
+  - MMPopupView
   - NullSafe
   - ReactiveCocoa (~> 2.5)
   - SDCycleScrollView
@@ -87,20 +88,20 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
-  FoldingTabBar: 79df76dfd5a84c0a369beaa378a31c07aa53b6b2
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
-  HYBUnicodeReadable: ad81c2313f07fe89bd8e6698c60ab6e45e78f85f
+  HYBUnicodeReadable: ee412774d5ff2b2001e6fad11e08bebaeb52a7c2
   iConsole: 823d9b14ac90f0a2a4fc9bf6a973a03ba9c4c7eb
   IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
   JZNavigationExtension: 235f57793791de029dd3e6cf785821abf75eeff1
   Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
   MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  MMPopupView: fe1dd010824029dfb632fdf1a531db5dd5386020
   NullSafe: 20aabf66b5b36ddc5177bf2f56fcde83412bc901
   PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SDCycleScrollView: 806fedb9342ab03b58b84442f985517b42c7cbb7
-  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
   VGParallaxHeader: 1213aba58c9b0aea84f9e81ad526fde57aa4fe48
