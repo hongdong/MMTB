@@ -7,11 +7,11 @@
 //
 
 #import "HDBaseVC.h"
-#import "HDMacrosHeader.h"
 #import "SVProgressHUD.h"
 #import "MJRefresh.h"
 #import "UIView+HDLoading.h"
 #import "UIBarButtonItem+BlocksKit.h"
+#import "HDCommonHeader.h"
 
 @interface HDBaseVC ()
 
@@ -47,7 +47,7 @@
 }
 
 - (HDBaseVC *)initWithViewModel:(HDBaseViewModel *)viewModel {
-    self = [super init];
+    self = [super initWithNibName:NSStringFromClass([self class]) bundle:nil];
     if (self) {
         self.viewModel = viewModel;
 
@@ -172,27 +172,28 @@
     [self.viewModel.errors subscribeNext:^(NSError *error) {
         @strongify(self);
         [SVProgressHUD showErrorWithStatus:error.userInfo[@"Message"]];
-        [self.view endLoading];
-//        [self.view configBlankPageHasData:NO hasError:YES reloadButtonBlock:^(id sender) {
-//            
-//        }];
+        [self.view HDEndLoading];
     }];
+    
+    [self.viewModel.showHUDSignal subscribeNext:^(id x) {
+        if (!HDStrIsEmptyOrNil(x)) {
+            [SVProgressHUD showWithStatus:x];
+        }else{
+            [SVProgressHUD dismiss];
+        }
+    }];
+
     
     [self.viewModel.showHUDSignal subscribeNext:^(id x) {
         [SVProgressHUD showWithStatus:x];
     }];
     
-    [self.viewModel.dismissHUDSignal subscribeNext:^(id x) {
-        [SVProgressHUD dismiss];
-    }];
-    
-    
     [RACObserve(self.viewModel, fullScreenLoading) subscribeNext:^(id x) {
         @strongify(self);
         if ([x boolValue]) {
-            [self.view beginLoading];
+            [self.view HDBeginLoading];
         }else{
-            [self.view endLoading];
+            [self.view HDEndLoading];
         }
     }];
 

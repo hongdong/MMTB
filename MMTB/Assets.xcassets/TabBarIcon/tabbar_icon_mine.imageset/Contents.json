@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "TabarHomeHL.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "tabbar_icon_mine.png",
       "scale" : "2x"
     },
     {

@@ -116,5 +116,11 @@ typedef id   (^IDBlock_id)  (id);
 
 #define CGOriginY(rect)                 rect.origin.y
 
+#define HDColor(r,g,b,a) [UIColor colorWithRed:r/255. green:g/255. blue:b/255. alpha:a]
+
+//系统默认字体
+#define HDFontSystemR(_size_) [UIFont systemFontOfSize:_size_]
+#define HDFontSystemB(_size_) [UIFont boldSystemFontOfSize:_size_]
+
 
 #endif /* HDCommonHeader_h */

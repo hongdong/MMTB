@@ -11,7 +11,9 @@
 
 #define HTTP_SERVER @"http://www.abnerh.com/"
 
-#define HDTHEME_COLOR [UIColor blackColor]
+#define HDColorTheme [UIColor blackColor]
+
+#define HDColorBarTint  HDColor(64, 196, 215, 1)
 
 
 #endif /* HDTHEMEConfig_h */

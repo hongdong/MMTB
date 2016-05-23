@@ -7,6 +7,9 @@
 //
 
 #import "HDTabBarViewModel.h"
+#import "HDHomeViewModel.h"
+#import "HDMessageViewModel.h"
+#import "HDMineViewModel.h"
 
 @implementation HDTabBarViewModel
 /**
@@ -14,24 +17,24 @@
  *
  *  @return <#return value description#>
  */
-- (HDBaseViewModel *)homeViewModel
+- (HDHomeViewModel *)homeViewModel
 {
     if (!_homeViewModel) {
-        _homeViewModel = [[HDBaseViewModel alloc] initWithBlock:nil];
+        _homeViewModel = [[HDHomeViewModel alloc] initWithBlock:nil];
     }
     return _homeViewModel;
 }
-- (HDBaseViewModel *)messageViewModel
+- (HDMessageViewModel *)messageViewModel
 {
     if (!_messageViewModel) {
-        _messageViewModel = [[HDBaseViewModel alloc] initWithBlock:nil];
+        _messageViewModel = [[HDMessageViewModel alloc] initWithBlock:nil];
     }
     return _messageViewModel;
 }
-- (HDBaseViewModel *)mineViewModel
+- (HDMineViewModel *)mineViewModel
 {
     if (!_mineViewModel) {
-        _mineViewModel = [[HDBaseViewModel alloc] initWithBlock:nil];
+        _mineViewModel = [[HDMineViewModel alloc] initWithBlock:nil];
     }
     return _mineViewModel;
 }

@@ -11,7 +11,8 @@
 @implementation GVUserDefaults (Properties)
 
 @dynamic registrationID;
-
+@dynamic loginUserDict;
+@dynamic loginStatus;
 @dynamic badge;
 @dynamic unreadNum;
 

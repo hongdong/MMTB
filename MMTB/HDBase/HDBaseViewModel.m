@@ -12,7 +12,6 @@
 @interface HDBaseViewModel ()
 @property (nonatomic, strong, readwrite) RACSubject *errors;
 @property (nonatomic, strong, readwrite) RACSubject *showHUDSignal;
-@property (nonatomic, strong, readwrite) RACSubject *dismissHUDSignal;
 @property (nonatomic, strong, readwrite) RACSubject *willDisappearSignal;
 @end
 
@@ -48,12 +47,14 @@
     self = [super init];
     if (self) {
         self.shouldRequestRemoteDataOnViewDidLoad = YES;
-        block(self);
+        if (block) {
+            block(self);
+        }
     }
     return self;
 }
 
-- (__kindof HDBaseVC *)routerVC{
+- (__kindof UIViewController *)routerVC{
     
     NSString * className = [[[NSStringFromClass([self class]) componentsSeparatedByString:@"iewModel"] firstObject] stringByAppendingString:@"C"];
     
@@ -76,12 +77,6 @@
     return _showHUDSignal;
 }
 
-- (RACSubject *)dismissHUDSignal{
-    if (!_dismissHUDSignal) {
-        _dismissHUDSignal = [RACSubject subject];
-    }
-    return _dismissHUDSignal;
-}
 
 - (RACSubject *)willDisappearSignal {
     if (!_willDisappearSignal) _willDisappearSignal = [RACSubject subject];

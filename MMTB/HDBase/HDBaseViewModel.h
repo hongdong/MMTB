@@ -20,13 +20,11 @@
 
 - (void)HDInitialize;
 
-- (__kindof HDBaseVC *)routerVC;
+- (__kindof UIViewController *)routerVC;
 
 @property (nonatomic, strong, readonly) RACSubject *errors;
 
 @property (nonatomic, strong, readonly) RACSubject *showHUDSignal;
-
-@property (nonatomic, strong, readonly) RACSubject *dismissHUDSignal;
 
 @property (nonatomic, assign) BOOL shouldRequestRemoteDataOnViewDidLoad;
 

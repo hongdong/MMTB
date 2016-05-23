@@ -19,6 +19,9 @@
 		AE054A441CF2D5490051C5F8 /* HDHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE054A431CF2D5490051C5F8 /* HDHomeViewModel.m */; };
 		AE054A471CF2D5570051C5F8 /* HDMessageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE054A461CF2D5570051C5F8 /* HDMessageViewModel.m */; };
 		AE054A4A1CF2D5660051C5F8 /* HDMineViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE054A491CF2D5660051C5F8 /* HDMineViewModel.m */; };
+		AE054A4F1CF2E6C70051C5F8 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = AE054A4C1CF2E6C70051C5F8 /* UIColor+expanded.m */; };
+		AE054A501CF2E6C70051C5F8 /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = AE054A4E1CF2E6C70051C5F8 /* UIImage+Common.m */; };
+		AE054A531CF2EC980051C5F8 /* UIView+HDLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = AE054A521CF2EC980051C5F8 /* UIView+HDLoading.m */; };
 		AE537CEA1CD3510200C8A585 /* HDBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE537CE11CD3510200C8A585 /* HDBaseCell.m */; };
 		AE537CEB1CD3510200C8A585 /* HDBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE537CE31CD3510200C8A585 /* HDBaseModel.m */; };
 		AE537CEC1CD3510200C8A585 /* HDBaseNVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE537CE51CD3510200C8A585 /* HDBaseNVC.m */; };
@@ -59,6 +62,12 @@
 		AE054A461CF2D5570051C5F8 /* HDMessageViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMessageViewModel.m; sourceTree = "<group>"; };
 		AE054A481CF2D5660051C5F8 /* HDMineViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMineViewModel.h; sourceTree = "<group>"; };
 		AE054A491CF2D5660051C5F8 /* HDMineViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMineViewModel.m; sourceTree = "<group>"; };
+		AE054A4B1CF2E6C70051C5F8 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		AE054A4C1CF2E6C70051C5F8 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		AE054A4D1CF2E6C70051C5F8 /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
+		AE054A4E1CF2E6C70051C5F8 /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
+		AE054A511CF2EC980051C5F8 /* UIView+HDLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HDLoading.h"; sourceTree = "<group>"; };
+		AE054A521CF2EC980051C5F8 /* UIView+HDLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HDLoading.m"; sourceTree = "<group>"; };
 		AE537CE01CD3510200C8A585 /* HDBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseCell.h; sourceTree = "<group>"; };
 		AE537CE11CD3510200C8A585 /* HDBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDBaseCell.m; sourceTree = "<group>"; };
 		AE537CE21CD3510200C8A585 /* HDBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseModel.h; sourceTree = "<group>"; };
@@ -203,12 +212,18 @@
 		AE537CF11CD362D400C8A585 /* HDCategory */ = {
 			isa = PBXGroup;
 			children = (
+				AE054A4B1CF2E6C70051C5F8 /* UIColor+expanded.h */,
+				AE054A4C1CF2E6C70051C5F8 /* UIColor+expanded.m */,
+				AE054A4D1CF2E6C70051C5F8 /* UIImage+Common.h */,
+				AE054A4E1CF2E6C70051C5F8 /* UIImage+Common.m */,
 				AEFD8C891CD881AD00AEFB4A /* UITableView+HD.h */,
 				AEFD8C8A1CD881AD00AEFB4A /* UITableView+HD.m */,
 				AEFD8C8B1CD881AD00AEFB4A /* UITableViewCell+HD.h */,
 				AEFD8C8C1CD881AD00AEFB4A /* UITableViewCell+HD.m */,
 				AE537CF21CD362F100C8A585 /* UIView+HD.h */,
 				AE537CF31CD362F100C8A585 /* UIView+HD.m */,
+				AE054A511CF2EC980051C5F8 /* UIView+HDLoading.h */,
+				AE054A521CF2EC980051C5F8 /* UIView+HDLoading.m */,
 			);
 			path = HDCategory;
 			sourceTree = "<group>";
@@ -447,9 +462,12 @@
 				AE054A361CF2D4FD0051C5F8 /* HDHomeVC.m in Sources */,
 				AEFD8C8D1CD881AD00AEFB4A /* UITableView+HD.m in Sources */,
 				AE054A401CF2D52A0051C5F8 /* HDMineVC.m in Sources */,
+				AE054A531CF2EC980051C5F8 /* UIView+HDLoading.m in Sources */,
+				AE054A501CF2E6C70051C5F8 /* UIImage+Common.m in Sources */,
 				AE054A3B1CF2D5180051C5F8 /* HDMessageVC.m in Sources */,
 				AEFBF9DB1C5220BD003D55B2 /* AppDelegate.m in Sources */,
 				AEFD8C9B1CD9944D00AEFB4A /* HDLoginManager.m in Sources */,
+				AE054A4F1CF2E6C70051C5F8 /* UIColor+expanded.m in Sources */,
 				AE054A2C1CF2A6D20051C5F8 /* HDTabBarVC.m in Sources */,
 				AEFBF9D81C5220BD003D55B2 /* main.m in Sources */,
 				AE537CEA1CD3510200C8A585 /* HDBaseCell.m in Sources */,
@@ -501,7 +519,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -538,7 +556,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -550,7 +568,7 @@
 			baseConfigurationReference = 115AA58BFF6F1FF2E1BE297A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Launch;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = MMTB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abnerh.MMTB;
@@ -563,7 +581,7 @@
 			baseConfigurationReference = A0A4682EC964CAE6CCE45CBA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Launch;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = MMTB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abnerh.MMTB;

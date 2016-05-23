@@ -13,6 +13,10 @@
 #import "IQKeyboardManager.h"
 #import "SVProgressHUD.h"
 #import <MMPopupView.h>
+#import "HDTabBarViewModel.h"
+#import "HDTHEMEConfig.h"
+#import "UIColor+expanded.h"
+#import "UIImage+Common.h"
 
 @interface AppDelegate ()
 
@@ -45,17 +49,35 @@
 
 - (HDBaseViewModel *)createInitialViewModel {
     if ([HDLoginManager isLogin]) {
-        return nil;
+        return [[HDTabBarViewModel alloc] initWithBlock:^(HDTabBarViewModel *viewModel) {
+            viewModel.selectIndex = 0;
+        }];
     }else{
-        return nil;
+        return [[HDTabBarViewModel alloc] initWithBlock:^(HDTabBarViewModel *viewModel) {
+            viewModel.selectIndex = 0;
+        }];
     }
 }
 
 
 
 - (void)configAppearanceUI{
+    
     self.window.backgroundColor=[UIColor whiteColor];
     [[UINavigationBar appearance] setShadowImage:[UIImage new]];
+    [UIApplication sharedApplication].statusBarStyle=UIStatusBarStyleLightContent;
+    
+    [[UITabBar appearance] setShadowImage:[UIImage new]];
+    
+    [UITabBar appearance].tintColor = HDColorBarTint;
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName:HDFontSystemB(GET(12)),NSForegroundColorAttributeName:[UIColor colorWithHexString:@"4a4a4a"]} forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName:HDFontSystemB(GET(12)),NSForegroundColorAttributeName:HDColorTheme} forState:UIControlStateSelected];
+        
+    [[UITabBar appearance] setBackgroundImage:[UIImage imageWithColor:[UIColor colorWithHexString:@"fbfbfb"]]];
+    
+//    [UINavigationBar appearance].backIndicatorImage=[UIImage imageNamed:@"navBack_icon"];
+//    [UINavigationBar appearance].backIndicatorTransitionMaskImage=[UIImage imageNamed:@"navBack_icon"];
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -81,7 +103,7 @@
 }
 
 /**
- *  GET&&SETER
+ *  GET
  *
  */
 

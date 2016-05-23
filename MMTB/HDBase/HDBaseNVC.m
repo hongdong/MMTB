@@ -17,7 +17,7 @@
 
 @implementation HDBaseNVC
 
--(instancetype)initWithRootViewModel:(HDBaseViewModel *)viewModel{
+-(instancetype)initWithRootViewModel:(__kindof HDBaseViewModel *)viewModel{
     self = [super initWithRootViewController:[viewModel routerVC]];
     if (self) {
         
@@ -31,7 +31,7 @@
     
     self.jz_fullScreenInteractivePopGestureEnabled = YES;
     self.navigationBar.shadowImage = [UIImage new];
-    self.navigationBar.barTintColor = HDTHEME_COLOR;
+    self.navigationBar.barTintColor = HDColorTheme;
     self.navigationBar.tintColor = [UIColor whiteColor];
     self.navigationBar.translucent = NO;
     

@@ -7,12 +7,15 @@
 //
 
 #import "HDBaseViewModel.h"
-@class HDBaseViewModel;
+#import "HDHomeViewModel.h"
+#import "HDMessageViewModel.h"
+#import "HDMineViewModel.h"
+
 @interface HDTabBarViewModel : HDBaseViewModel
 
-@property (nonatomic, strong) HDBaseViewModel *homeViewModel;
-@property (nonatomic, strong) HDBaseViewModel *messageViewModel;
-@property (nonatomic, strong) HDBaseViewModel *mineViewModel;
+@property (nonatomic, strong) HDHomeViewModel *homeViewModel;
+@property (nonatomic, strong) HDMessageViewModel *messageViewModel;
+@property (nonatomic, strong) HDMineViewModel *mineViewModel;
 
 @property (nonatomic, strong) NSNumber *selectIndex;
 
